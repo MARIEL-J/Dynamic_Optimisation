@@ -30,9 +30,9 @@ def home_page():
     col1, col2 = st.columns([1, 1])
     
     with col1:
-        st.image("C:/Users/hp ProBook 450 G8/Documents/PROGRAMME ISE/ISE 2/SEMESTRE 3/OPTIMISATION/PROJET_CC/ENEAM.jpg", use_column_width='auto')
+        st.image("ENEAM.jpg", use_column_width='auto')
     with col2:
-        st.image("C:/Users/hp ProBook 450 G8/Documents/PROGRAMME ISE/ISE 2/SEMESTRE 3/OPTIMISATION/PROJET_CC/ISE.png", use_column_width='auto')
+        st.image("ISE.png", use_column_width='auto')
 
     st.title("PROJET ACADEMIQUE : OPTIMISATION DYNAMIQUE", anchor="title")
     st.write("Réalisé par :")
